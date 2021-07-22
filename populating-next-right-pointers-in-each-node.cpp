@@ -24,7 +24,7 @@ public:
         queue<Node*> q;
         q.push(root);
 
-        for (int lvl = 0; !q.empty(); ++lvl) {
+        while (!q.empty()) {
             
             int cur_size = q.size();
             
