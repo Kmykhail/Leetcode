@@ -1,4 +1,4 @@
-iclass Solution {
+class Solution {
 public:
     int uniquePaths(int m, int n) {
         vector<vector<int>> res(m, vector<int>(n));
